@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <p class="para">Please like the vedio</p>
+    <p class="para">Please subcribe my channel</p>
+    <p>Please share the vedio</p>
+    <h1 id="heading">changed the content of h1</h1>
+    <button onclick="changeContent()">click me</button>
+    <script>
+        const changeContent=()=>{
+            const headingchange=document.getElementById("heading");
+            headingchange.innerHTML="welcome to thapa";
+            // console.log(document.getElementsByClassName("para"));
+            // console.log(document.getElementsByClassName("p"));
+
+            console.log(document.querySelectorAll("#heading"))
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

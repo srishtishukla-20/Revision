@@ -1,0 +1,7 @@
+let currDate= new Date()
+console.log(currDate)
+console.log(currDate.toLocaleString())
+console.log(currDate.toString())
+console.log(currTime)
+// console.log(Date.now())
+// //console.log(a.toLocaleString())

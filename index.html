@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <p>Click the button to display time</p>
+    <button onclick="myFunction()">try it</button>
+    <p id="demo">sd</p>
+    <p id="time"></p>
+    <script>
+    (function(){
+        setInterval(()=>{
+            var d=new Date().toLocaleTimeString();
+            document.getElementById("demo").innerHTML=d;
+        },1000)
+    })();
+
+    var t=new Date().toLocaleDateString();
+    document.getElementById("time").innerHTML=t;
+    </script>
+</body>
+</html>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
